@@ -1,0 +1,35 @@
+.intro__list {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 690px;
+    min-height: 90px;
+    font-size: 12px;
+    line-height: 1.50;
+    margin-top: 0;
+    margin-left: 148px;
+    margin-bottom: 92px;
+    white-space: pre-line;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro__list {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+        max-width: 720px;
+        margin-left: 24px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__list {
+        max-width: 288px;
+        margin-left: 16px;
+        margin-bottom: 64px;
+    }
+}

@@ -1,0 +1,21 @@
+.header__lang-links {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 46px;
+    margin-right: 48px;
+    gap: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang-links {
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-links {
+        margin-top: 30px;
+        margin-right: 16px;
+    }
+}
