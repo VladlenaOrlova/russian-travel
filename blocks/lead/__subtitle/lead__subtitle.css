@@ -6,36 +6,39 @@
     font-size: 30px;
     line-height: 1.20;
     max-width: 640px;
-    min-height: 72px;
-    margin-left: 320px;
-    margin-right: 320px;
-    margin-bottom: 64px;
+    padding: 0;
+    margin: 0 320px 64px 320px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1064px) {
     .lead__subtitle {
-        margin-left: 192px;
-        margin-right: 192px;
-        margin-bottom: 56px;
+        margin: 0 192px 56px 192px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 805px) {
     .lead__subtitle {
-        margin-left: 64px;
-        margin-right: 64px;
-        margin-bottom: 56px;
+        margin: 0 64px 64px 64px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 605px) {
+    .lead__subtitle {
+        margin: 0 25px 64px 25px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .lead__subtitle {
+        font-size: 20px;
+}
+}
+
+@media screen and (max-width: 330px) {
     .lead__subtitle {
         font-size: 16px;
         line-height: 1.25;
         max-width: 288px;
-        min-height: 40px;
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-bottom: 40px;
+        margin: 0 16px 40px 16px;
     }
 }
