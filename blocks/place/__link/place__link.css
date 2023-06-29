@@ -7,23 +7,9 @@
     max-width: 456px;
     font-size: 18px;
     line-height: 1.22;
-    margin-bottom: 48px;
 }
 
 .place__link:hover {
     opacity: 0.8;
     transition: 0.4s;
-}
-
-@media screen and (max-width: 768px) {
-    .place__link {
-        max-width: 352px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__link {
-        max-width: 288px;
-        margin-bottom: 32px;
-    }
 }

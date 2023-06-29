@@ -13,22 +13,19 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
-    .place__paragraph {
-        max-width: 456px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .place__paragraph {
-        max-width: 352px;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place__website {
         font-size: 16px;
-        margin: 0 0 25px 0;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .place__paragraph {
-        max-width: 288px;
+        font-size: 16px;
+        margin: 0 0 26px 16px;
+    }
+
+    .place__paragraph:last-child {
+        margin: 0 0 0 16px;
     }
 }

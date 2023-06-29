@@ -10,16 +10,3 @@
     margin: 0 0 12px 0;
     text-transform: uppercase;
 }
-
-@media screen and (max-width: 768px) {
-    .place__url-heading {
-        max-width: 352px;
-        line-height: 1;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__url-heading {
-        max-width: 288px;
-    }
-}
