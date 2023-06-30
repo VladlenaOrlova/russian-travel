@@ -8,4 +8,4 @@ __Используемые технологии:__
 * Media queries
 * Методология БЭМ
 
-Ссылка на GitHub Pages: https://vladlenaorlova.github.io/russian-travel/index.html 
+Ссылка на GitHub Pages: https://vladlenaorlova.github.io/russian-travel/

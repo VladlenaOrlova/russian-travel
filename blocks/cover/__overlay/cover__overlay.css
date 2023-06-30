@@ -9,15 +9,14 @@
     align-items: center;
     max-width: 1184px;
     min-height: 740px;
+    position: relative;
+    margin: 0 auto;
 }
 
 .cover__overlay:before {
     content: "";
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    inset: 0;
     background: #2A2C2F;
     opacity: 0.3;
 }
